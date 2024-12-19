@@ -1,0 +1,90 @@
+body {
+    font-family:'Gill Sans';
+margin: 0px;
+padding: 1px;
+background-color: rgb(114, 62, 182);
+}
+header{
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(211, 193, 247);
+}
+nav ul{
+list-style-type: none;
+padding: 10px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+#Productos{
+padding: 20px;
+background-color: rgb(228, 215, 250);
+margin-bottom: 40px;
+}
+.conten-prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(165, 181, 224);
+    border: 1px solid;
+    border-radius:5px;
+    padding: 20px;
+    margin: 10px;
+    width:200px;
+    text-align: center;
+    transition: 0.3s ;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.0);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: rgb(183, 144, 255);
+}
+#Contacto{
+    padding: 20px;
+    background-color: rgb(228, 215, 250);
+    margin-bottom: 40px;
+    }
+    .conten-cont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .iconos{
+        background-color: rgb(165, 181, 224);
+        border: 1px solid;
+        border-radius:5px;
+        padding: 20px;
+        margin: 10px;
+        width:200px;
+        text-align: center;
+        transition: transform 0.3s ;
+        overflow: hidden;
+    }
+    .iconos:hover{
+        transform: scale(1.0);
+    }
+    
+    .iconos.img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .btn {
+        background-color: aliceblue;
+        color: rgb(183, 144, 255);
+    }
